@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Container from "@mui/material/Container";
@@ -8,7 +8,6 @@ import Stack from "@mui/material/Stack";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import { Alert } from "@mui/material";
-import Snackbar from "@mui/material/Snackbar";
 
 import FacebookIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -53,6 +52,7 @@ export default function Footer() {
 
 	return (
 		<Container
+			id="footer"
 			sx={{
 				display: "flex",
 				flexDirection: "column",
